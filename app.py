@@ -11,7 +11,7 @@ app = Flask(__name__)
 def get_db_connection():
     conn = psycopg2.connect(database="Uni_Ranking",
                             user="postgres",
-                            password="258080",
+                            password="Engalub0",
                             host="localhost",
                             port= 5432
                             )
